@@ -1,0 +1,41 @@
+.tienda {
+  margin-top: 1rem;
+}
+
+.producto {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.producto__imagen {
+  width: 30rem;
+  height: auto;
+}
+
+/** Transformaciones **/
+.producto__imagen:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.producto__imagen {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.producto__informacion p {
+  color: var(--texto);
+  font-size: 2rem;
+  margin-left: 5rem;
+}
+
+.producto__informacion {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.producto__nombre,
+.producto__precio {
+  text-align: center;
+}
+/*# sourceMappingURL=tienda.css.map */
